@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import utilities.Driver;
 
-public class _05_Locator_ID {
+public class _05_Locator_id {
     /*
     Go to https://www.techglobalschool.com
     Validate the company signature
