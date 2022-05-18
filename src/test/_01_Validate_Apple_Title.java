@@ -15,7 +15,6 @@ public class _01_Validate_Apple_Title {
         //1. Set up driver
         WebDriver driver = Driver.getDriver();
 
-
         //2. Validation
         driver.get("https://www.apple.com/");
 
