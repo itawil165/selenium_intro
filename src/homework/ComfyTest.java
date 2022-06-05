@@ -7,7 +7,6 @@ public class ComfyTest {
     public static void main(String[] args) {
 
         WebDriver driver = Driver.getDriver();
-
         driver.get("https://comfyelite.com/");
 
         String expectedTitle = "COMFY ELITE - Pillow, Neck Pillow, Travel, Pillow";

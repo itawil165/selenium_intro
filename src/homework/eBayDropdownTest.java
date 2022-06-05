@@ -6,11 +6,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import utilities.Driver;
 
-public class EbayTest {
+public class eBayDropdownTest {
     public static void main(String[] args) {
 
         WebDriver driver = Driver.getDriver();
-
         driver.get("https://www.ebay.com/");
 
         Select allCategoriesDropdown = new Select(driver.findElement(By.id("gh-cat")));

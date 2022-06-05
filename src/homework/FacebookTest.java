@@ -9,7 +9,6 @@ public class FacebookTest {
     public static void main(String[] args) {
 
         WebDriver driver = Driver.getDriver();
-
         driver.get("https://www.facebook.com/");
 
         // Validate title
